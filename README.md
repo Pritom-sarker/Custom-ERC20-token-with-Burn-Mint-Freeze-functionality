@@ -30,22 +30,22 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Ethereum crowdfunding using solidity python and Brownie </h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+     This decentralized application can store ethereum. Only the owner can make withdrawals, but anyone could donate any amount of more than 4$. The Smart contract is been written using Solidity. using chainlink, It can check the current price of Ethereum. It's important because we said earlier users can donate more than 4$ valued ethereum. so we take the current price from chainlink and after the comparison, the transaction could be made.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://rinkeby.etherscan.io/address/0x1bb4C00519cBf0b102B0c094213cbb4b330f5408"><strong>Explore the Smart Contract »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract/issues">Request Feature</a>
   </p>
 </div>
 
@@ -82,35 +82,22 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+![Alt text](images/s1.png?raw=true "Title")
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+This decentralized application can store ethereum. Only the owner can make withdrawals, but anyone could donate any amount of more than 4$. The Smart contract is been written using Solidity. using chainlink, It can check the current price of Ethereum. It's important because we said earlier users can donate more than 4$ valued ethereum. so we take the current price from chainlink and after the comparison, the transaction could be made.
 
 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+All the used technology and frameworks are listed below:
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python](https://www.python.org/)
+* [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
+* [Solidity](https://docs.soliditylang.org/en/v0.8.10/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -124,7 +111,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You have to install the following things as a priority
+* Python
+* Solidity
+* Install Brownie
 * npm
   ```sh
   npm install npm@latest -g
@@ -134,50 +124,23 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at  [infura.io](https://infura.io/logout?redirect=%2Fdashboard)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
+   git clone https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract
+3. Enter your API in `.env`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   export WEB3_INFURA_PROJECT_ID = 'ENTER YOUR API'
+4. Enter your Private key in `.env`
+   ```js
+   export PRIVATE_KEY1 = 'ENTER YOUR API'
+   ```
+5. Type command on console
+   ```
+   Brownie run scripts/deploy.py
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -210,9 +173,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@Pritom Sarker](https://www.pritom.work/) - Me.Pritom@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [Marriage Registration System Using Blockchain Smart Contract](https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -239,15 +202,15 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/me-pritom
 [product-screenshot]: images/screenshot.png
