@@ -33,10 +33,10 @@
     <img src="./images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Ethereum crowdfunding using solidity python and Brownie </h3>
+  <h3 align="center">Custom ERC20 Token with Burn, Melt and Frozen functionality</h3>
 
   <p align="center">
-     This decentralized application can store ethereum. Only the owner can make withdrawals, but anyone could donate any amount of more than 4$. The Smart contract is been written using Solidity. using chainlink, It can check the current price of Ethereum. It's important because we said earlier users can donate more than 4$ valued ethereum. so we take the current price from chainlink and after the comparison, the transaction could be made.
+     In this project I create an ERC20 token from scratch, It has Burn. Melt and frozen functionality. This token is been uploaded on the Rikeny test network. I use the truffle framework to test the smart contract. 
     <br />
     <a href="https://rinkeby.etherscan.io/address/0x1bb4C00519cBf0b102B0c094213cbb4b330f5408"><strong>Explore the Smart Contract »</strong></a>
     <br />
@@ -87,7 +87,8 @@
 
 ![Alt text](images/s1.png?raw=true "Title")
 
-This decentralized application can store ethereum. Only the owner can make withdrawals, but anyone could donate any amount of more than 4$. The Smart contract is been written using Solidity. using chainlink, It can check the current price of Ethereum. It's important because we said earlier users can donate more than 4$ valued ethereum. so we take the current price from chainlink and after the comparison, the transaction could be made.
+In this project I create an ERC20 token from scratch, It has Burn. Melt and frozen functionality. This token is been uploaded on the Rikeny test network. I use the truffle framework to test the smart contract. 
+
 
 
 
@@ -112,38 +113,14 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 You have to install the following things as a priority
-* Python
-* Solidity
-* Install Brownie
+* Js
+* Truffle
 * npm
   ```sh
   npm install npm@latest -g
   ```
 
-### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at  [infura.io](https://infura.io/logout?redirect=%2Fdashboard)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract
-3. Enter your API in `.env`
-   ```js
-   export WEB3_INFURA_PROJECT_ID = 'ENTER YOUR API'
-4. Enter your Private key in `.env`
-   ```js
-   export PRIVATE_KEY1 = 'ENTER YOUR API'
-   ```
-5. Type command on console
-   ```
-   Brownie run scripts/deploy.py
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
