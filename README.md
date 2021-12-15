@@ -38,7 +38,7 @@
   <p align="center">
      In this project I create an ERC20 token from scratch, It has Burn. Melt and frozen functionality. This token is been uploaded on the Rikeny test network. I use the truffle framework to test the smart contract. 
     <br />
-    <a href="https://rinkeby.etherscan.io/address/0x1bb4C00519cBf0b102B0c094213cbb4b330f5408"><strong>Explore the Smart Contract »</strong></a>
+    <a href="https://rinkeby.etherscan.io/address/0x2A1FA3b8D19e3ccf1B895d8476E1958905894Ef3#code"><strong>Explore the Smart Contract »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Pritom-sarker/marriage-registration-system-using-blockchain-smart-contract">View Demo</a>
